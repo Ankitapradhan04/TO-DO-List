@@ -1,0 +1,23 @@
+1. Setting Up the Files:
+
+Create a folder for your project and create three files inside:
+index.html (HTML structure for the to-do list)
+style.css (CSS styling for the webpage)
+script.js (JavaScript code for interactivity)
+
+2. Building the HTML Structure (index.html):
+
+A heading "To-Do List"
+A container (div) to hold the to-do list elements.
+An input field (input) to enter new tasks.
+A button (button) to add tasks.
+An unordered list (ul) to display the to-do items.
+
+3. Styling the Webpage (style.css):
+
+4. Adding JavaScript Functionality (script.js):
+
+Select the necessary HTML elements using getElementById.
+Attaches a click event listener to the "Add Task" button.
+When clicked, it retrieves the task value from the input field.
+It checks if the task value is not empty.

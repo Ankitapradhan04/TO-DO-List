@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #todo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #todo-input {
+    flex: 1; /* Make the input field flexible to fill most of the container */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #add-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Change cursor to indicate clickability */
+  }
+  
+  #todo-list {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Remove default bullet points */
+  }
+  
+  #todo-list li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  #todo-list li span.completed {
+    text-decoration: line-through; /* Strikethrough completed tasks */
+    color: #ccc;
+  }
+  
